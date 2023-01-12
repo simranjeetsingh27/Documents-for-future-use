@@ -2,3 +2,9 @@ pipeline {
     agent any
 
     stages {
+        stage('Cleaning the Workspace') {
+            steps {
+                step([$class: 'WsCleanup'])
+            }
+        }
+        
