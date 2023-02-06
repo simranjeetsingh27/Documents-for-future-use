@@ -24,3 +24,4 @@ pipeline {
             steps {
                    sh"sudo docker run --name mpassport -itd -p 3006:3006 mpassport"
                                }
+        }
