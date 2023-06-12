@@ -10,7 +10,7 @@ pipeline {
         
         stage('git_clone') {
             steps {
-                git branch: 'development', credentialsId: 'git_jenkins', url: 'http://100.97.0.8/gitlab-instance-27e0deb1/mpassportseva.git'
+                git branch: 'develpment', credentialsId: 'git_jenkins', url: 'http://100.97.0.8/gitlab-instance-27e0deb1/mpassportseva.git'
             }
         }
   stage('docker image') {
