@@ -11,7 +11,7 @@ printenv | grep JAVA_HOME
 export PATH="$JAVA_HOME/bin:$PATH"
 java -version
 
-Now save this in .bashrc
+Now save this in bashrc
 
 
 M2_HOME='/opt/apache-maven-3.6.3'
