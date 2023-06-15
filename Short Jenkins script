@@ -15,7 +15,7 @@ pipeline {
         }
   stage('docker image') {
             steps {
-                sh"sudo docker rm -f mpassport"
+                sh"sudo docker rm -f passport"
                 sh"sudo docker rmi -f mpassport"
                 sh"sudo docker build . -t mpassport"
                   }
