@@ -1,4 +1,4 @@
-use this link for downloading nodejs latst version.
+use this link for downloading nodejs latst version
 
 https://nodejs.org/en/download
 
